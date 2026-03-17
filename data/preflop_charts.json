@@ -1,0 +1,82 @@
+{
+  "opens": [
+    { "position": "UTG", "tokens": ["66+", "A2s-A5s@0.5", "ATs+", "KQs", "QJs", "JTs", "T9s@0.5", "AQo+"] },
+    { "position": "HJ", "tokens": ["44+", "A2s-A5s", "A9s+", "KTs+", "QTs+", "JTs", "T9s", "98s@0.5", "ATo+", "KQo"] },
+    { "position": "CO", "tokens": ["22+", "A2s+", "K9s+", "Q9s+", "J9s+", "T8s+", "97s+", "86s+", "75s+", "65s", "54s", "A8o+", "KTo+", "QTo+", "JTo"] },
+    { "position": "BTN", "tokens": ["22+", "A2s+", "K5s+", "Q7s+", "J7s+", "T7s+", "96s+", "86s+", "75s+", "64s+", "54s", "A2o+", "K9o+", "Q9o+", "J9o+", "T9o"] },
+    { "position": "SB", "tokens": ["22+", "A2s+", "K7s+", "Q8s+", "J8s+", "T8s+", "97s+", "86s+", "76s", "65s", "54s", "A2o+", "K9o+", "Q9o+", "J9o+", "T9o"] },
+
+    { "position": "UTG", "max_stack_bb": 40.0, "tokens": ["77+", "AJs+", "KQs", "AQo+"] },
+    { "position": "HJ", "max_stack_bb": 40.0, "tokens": ["55+", "A8s+", "KTs+", "QTs+", "JTs", "ATo+", "KQo"] },
+    { "position": "CO", "max_stack_bb": 40.0, "tokens": ["22+", "A2s+", "K9s+", "Q9s+", "J9s+", "T9s", "98s", "A8o+", "KTo+", "QTo+", "JTo"] },
+    { "position": "BTN", "max_stack_bb": 40.0, "tokens": ["22+", "A2s+", "K7s+", "Q8s+", "J8s+", "T8s+", "97s+", "87s", "A2o+", "K9o+", "Q9o+", "J9o+"] },
+    { "position": "SB", "max_stack_bb": 40.0, "tokens": ["22+", "A2s+", "K8s+", "Q9s+", "J9s+", "T8s+", "97s+", "87s", "A2o+", "KTo+", "QTo+", "JTo"] }
+  ],
+  "cold_calls": [
+    { "hero_position": "HJ", "villain_position": "UTG", "tokens": ["66-JJ", "AJs-AQs", "KQs", "QJs", "JTs", "T9s"] },
+    { "hero_position": "CO", "villain_position": "UTG", "tokens": ["55-JJ", "ATs-AQs", "KQs", "QJs", "JTs", "T9s", "98s"] },
+    { "hero_position": "BTN", "villain_position": "UTG", "tokens": ["55-JJ", "ATs-AQs", "KQs", "QJs", "JTs", "T9s", "98s"] },
+    { "hero_position": "CO", "villain_position": "HJ", "tokens": ["44-TT", "A9s-AQs", "KTs-KQs", "QTs+", "JTs", "T9s", "98s"] },
+    { "hero_position": "BTN", "villain_position": "HJ", "tokens": ["44-TT", "A7s-AQs", "KTs-KQs", "QTs+", "JTs", "T9s", "98s", "87s", "ATo-AQo"] },
+    { "hero_position": "BTN", "villain_position": "CO", "tokens": ["22-99", "A2s-AJs", "K9s-KQs", "Q9s+", "J9s+", "T9s", "98s", "87s", "A9o-AQo", "KQo"] },
+    { "hero_position": "SB", "villain_position": "BTN", "tokens": ["22-88", "A2s-AJs", "K9s-KQs", "Q9s+", "J9s+", "T9s", "98s"] },
+    { "hero_position": "BB", "villain_position": "BTN", "tokens": ["22-99", "A2s-AQs", "K7s-KQs", "Q8s+", "J8s+", "T8s+", "97s+", "86s+", "75s+", "A7o-AQo", "KTo+", "QTo+"] }
+  ],
+  "continue_vs_3bet": [
+    { "hero_position": "UTG", "villain_position": "HJ", "tokens": ["QQ+", "AKs", "AKo"] },
+    { "hero_position": "UTG", "villain_position": "CO", "tokens": ["QQ+", "AKs", "AKo"] },
+    { "hero_position": "UTG", "villain_position": "BTN", "tokens": ["JJ+", "AKs", "AQs@0.5", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "UTG", "villain_position": "SB", "tokens": ["JJ+", "AKs", "AQs@0.5", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "UTG", "villain_position": "BB", "tokens": ["TT+", "AKs", "AQs@0.5", "A5s-A2s@0.5", "AKo"] },
+
+    { "hero_position": "HJ", "villain_position": "CO", "tokens": ["TT+", "AQs+", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "BTN", "tokens": ["TT+", "AQs+", "KQs@0.3", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "SB", "tokens": ["JJ+", "AQs+", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "BB", "tokens": ["TT+", "AQs+", "KQs@0.3", "A5s-A4s@0.5", "AKo"] },
+
+    { "hero_position": "CO", "villain_position": "BTN", "tokens": ["99+", "AJs+", "KQs", "AQo+", "A5s-A4s@0.5"] },
+    { "hero_position": "CO", "villain_position": "SB", "tokens": ["TT+", "AQs+", "AKo", "A5s-A4s@0.5"] },
+    { "hero_position": "CO", "villain_position": "BB", "tokens": ["99+", "AJs+", "KQs", "AQo+", "A5s-A4s@0.5"] },
+
+    { "hero_position": "BTN", "villain_position": "SB", "tokens": ["88+", "ATs+", "KQs", "AQo+", "A5s-A2s@0.5"] },
+    { "hero_position": "BTN", "villain_position": "BB", "tokens": ["77+", "ATs+", "KQs", "AQo+", "A5s-A2s@0.5"] },
+
+    { "hero_position": "SB", "villain_position": "BB", "tokens": ["TT+", "AQs+", "AKo", "A5s-A4s@0.5"] }
+  ],
+  "three_bets": [
+    { "hero_position": "UTG", "villain_position": "HJ", "tokens": ["KK+", "AKs", "AKo"] },
+    { "hero_position": "UTG", "villain_position": "CO", "tokens": ["QQ+", "AKs", "AKo"] },
+    { "hero_position": "UTG", "villain_position": "BTN", "tokens": ["QQ+", "AKs", "AQs@0.5", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "UTG", "villain_position": "SB", "tokens": ["QQ+", "AKs", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "UTG", "villain_position": "BB", "tokens": ["QQ+", "AKs", "AQs@0.3", "A5s-A2s@0.5", "AKo"] },
+
+    { "hero_position": "HJ", "villain_position": "CO", "tokens": ["99+", "AQs+", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "BTN", "tokens": ["88+", "AJs+", "KQs", "A5s-A4s@0.5", "AQo+"] },
+    { "hero_position": "HJ", "villain_position": "SB", "tokens": ["TT+", "AQs+", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "BB", "tokens": ["99+", "AQs+", "A5s-A4s@0.5", "AKo"] },
+    { "hero_position": "CO", "villain_position": "BTN", "tokens": ["77+", "ATs+", "KJs+", "QJs", "A5s-A4s@0.5", "AQo+"] },
+    { "hero_position": "CO", "villain_position": "SB", "tokens": ["88+", "AJs+", "KQs", "A5s-A4s@0.5", "AQo+"] },
+    { "hero_position": "CO", "villain_position": "BB", "tokens": ["77+", "ATs+", "KJs+", "QJs", "A5s-A4s@0.5", "AQo+"] },
+    { "hero_position": "BTN", "villain_position": "SB", "tokens": ["66+", "ATs+", "KTs+", "QTs+", "JTs", "A5s-A2s@0.5", "AQo+", "KQo"] },
+    { "hero_position": "BTN", "villain_position": "BB", "tokens": ["66+", "A9s+", "KTs+", "QTs+", "JTs", "A5s-A2s@0.5", "AQo+", "KQo"] },
+    { "hero_position": "SB", "villain_position": "BB", "tokens": ["77+", "ATs+", "KJs+", "QJs", "A5s-A2s@0.5", "AQo+", "KQo"] }
+  ],
+  "continue_vs_4bet": [
+    { "hero_position": "UTG", "villain_position": "HJ", "tokens": ["AA", "KK"] },
+    { "hero_position": "UTG", "villain_position": "CO", "tokens": ["AA", "KK"] },
+    { "hero_position": "UTG", "villain_position": "BTN", "tokens": ["KK+", "AKs"] },
+    { "hero_position": "UTG", "villain_position": "SB", "tokens": ["AA", "KK"] },
+    { "hero_position": "UTG", "villain_position": "BB", "tokens": ["KK+", "AKs"] },
+
+    { "hero_position": "BTN", "villain_position": "SB", "tokens": ["QQ+", "AKs", "AKo"] },
+    { "hero_position": "BTN", "villain_position": "BB", "tokens": ["QQ+", "AKs", "AKo"] },
+    { "hero_position": "CO", "villain_position": "BTN", "tokens": ["QQ+", "AKs", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "CO", "tokens": ["KK+", "AKs", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "BTN", "tokens": ["KK+", "AKs", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "SB", "tokens": ["KK+", "AKs", "AKo"] },
+    { "hero_position": "HJ", "villain_position": "BB", "tokens": ["KK+", "AKs", "AKo"] },
+    { "hero_position": "CO", "villain_position": "SB", "tokens": ["KK+", "AKs", "AKo"] },
+    { "hero_position": "CO", "villain_position": "BB", "tokens": ["KK+", "AKs", "AKo"] },
+    { "hero_position": "SB", "villain_position": "BB", "tokens": ["KK+", "AKs", "AKo"] }
+  ]
+}
